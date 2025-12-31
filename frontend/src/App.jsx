@@ -7,9 +7,6 @@ import { Route, Routes } from "react-router-dom";
 const App = () => {
   return (
     <div data-theme="halloween">
-      <button onClick={() => toast.success("hello")} className="btn">
-        click
-      </button>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
