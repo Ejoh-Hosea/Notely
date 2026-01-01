@@ -11,13 +11,14 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 //middleware
-app.use(express.json());
-app.use(ratelimiter);
 app.use(
   cors({
     origin: "http://localhost:5173",
   })
 );
+app.use(express.json());
+app.use(ratelimiter);
+
 app.use("/api/notes", notesRoutes);
 connectDB().then(() => {
   app.listen(PORT, () => {
