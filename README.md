@@ -126,4 +126,4 @@ Distributed under the **ISC License**.
 
 - GitHub: [@Ejoh-Hosea](https://github.com/Ejoh-Hosea)
 - Email: ejohhoseamwongwe@gmail.com
-- Portfolio: [https://ejoh-hosea.netlify.app/](https://ejoh-hosea.netlify.app/)
+- Portfolio: [https://ejoh-hosea-portfolio.netlify.app/](https://ejoh-hosea-portfolio.netlify.app/)
